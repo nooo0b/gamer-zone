@@ -1,0 +1,261 @@
+/* Common Shared Style */
+* {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+}
+.btn-primary{
+    background-color: #F948B2;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+.text-desc{
+    color: #534C64;
+    font-size: 18px;
+}
+.title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.title-secondary{
+    color: #F948B2;
+}
+.content-desc{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Header Related Style */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0 250px;
+    padding: 0;
+}
+.title-logo{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    flex-shrink: 0;
+}
+.website-title{
+    margin-left: 20px;
+    color: #0B0223;
+    font-size: 45px;
+}
+.G{
+    color: #F948B2;
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Banner Related Styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-container{
+    background-image: url(../images/Group-14.png);
+    background-repeat: no-repeat;
+    background-color: #fdfafa;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.goat{
+    color: #F948B2;
+    font-size: 95px;
+    font-weight: 900;
+}
+.go-rogue{
+    background-color: #4EC5F7;
+}
+
+/* We Are Gamer Section Related Style */
+.we-are-gamer{
+    background-color: rgba(255, 66, 165, 0.03);
+}
+.we-are-gamer-container{
+    display: flex;
+    margin: 0px 250px;
+    padding: 100px 0px;
+}
+.we-are-gamer-content{
+    text-align: right;
+}
+.we-are-gamer-content-desc{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+.unleash{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Online Games Section Related Styles */
+
+.online-games{
+    margin: 100px 250px;
+}
+.funny-vid-container{
+    display: flex;
+    gap: 20px;
+}
+.online-games{
+    text-align: center;
+}
+
+/* Play Instantly Section Related Styles */
+
+.play-instantly , .play-games{
+    display: flex;
+    margin: 0px 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+.play-instantly-content{
+    padding-bottom: 200px;
+    padding-left: 100px;
+
+}
+.play-instantly-img > img{
+    padding-left: 150px;
+}
+.play-instantly-card{
+    position: relative;
+    bottom: 250px;
+}
+
+/* Play Games Section Related Styles */
+
+.play-games-content{
+    padding-bottom: 250px;
+    padding-left: 100px;
+}
+.play-games-img > img{
+    padding-right: 150px;
+}
+.play-games-card{
+    position: relative;
+    bottom: 250px;
+    left: 550px;
+}
+
+/* Careers Section Related Styles */
+
+.careers-container{
+    background-image: url(../images/Group-14.png);
+    background-repeat: no-repeat;
+    background-color: #F948B2;
+}
+.careers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.careers-contents{
+    padding-left: 250px;
+}
+.careers-title, .careers-text-desc{
+    color: #FFFFFF;
+}
+.positions{
+    display: flex;
+    justify-content: space-between;
+}
+.positions-content-desc{
+    color: #FFFFFF;
+}
+.positions-btn{
+    color: #F948B2;
+    background-color: #FFFFFF;
+}
+
+/* Games Options Section Related Styles */
+.games-list-container{
+    margin: 100px 200px;
+}
+.games-list{
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.options-btn{
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    margin-right: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+}
+.options-btn img {
+    margin-right: 15px;
+}
+
+/* Footer Related Styles */
+
+footer{
+    background-color: #0B0223;
+    align-items: center;
+    text-align: center;
+}
+footer .website-title{
+    color: #FFFFFF;
+}
+.footer-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+.about, .policy{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.copyright{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);;
+}
