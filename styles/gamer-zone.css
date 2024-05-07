@@ -30,6 +30,25 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@keyframes picard {
+    from{
+        left: -50px;
+    }
+    to{
+        left: 50px;
+    }
+}
+
+@keyframes gicard {
+    from{
+        right: 50px;
+    }
+    to{
+        left: 450px;
+    }
+}
+
 /* Header Related Style */
 
 .header{
@@ -145,6 +164,7 @@ nav li{
 .play-instantly-card{
     position: relative;
     bottom: 250px;
+    animation: picard 1.5s ease-in-out 1s infinite alternate;
 }
 
 /* Play Games Section Related Styles */
@@ -160,6 +180,7 @@ nav li{
     position: relative;
     bottom: 250px;
     left: 550px;
+    animation: gicard 1.5s ease-in-out 1s infinite alternate;
 }
 
 /* Careers Section Related Styles */
