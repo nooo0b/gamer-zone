@@ -2,6 +2,8 @@
 * {
     font-family: "Work Sans", sans-serif;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 .btn-primary{
     background-color: #F948B2;
@@ -12,23 +14,29 @@
     border: 0;
     border-radius: 30px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .text-desc{
     color: #534C64;
     font-size: 18px;
+    padding-bottom: 15px;
+    line-height: 1.5;
 }
 .title{
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 .title-secondary{
     color: #F948B2;
+    padding-bottom: 20px;
 }
 .content-desc{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    margin: 15px 0;
 }
 
 @keyframes picard {
@@ -49,6 +57,7 @@
     }
 }
 
+
 /* Header Related Style */
 
 .header{
@@ -56,7 +65,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
-    margin: 0 250px;
+    margin: 40px 250px;
     padding: 0;
 }
 .title-logo{
@@ -116,7 +125,7 @@ nav li{
 }
 .we-are-gamer-container{
     display: flex;
-    margin: 0px 250px;
+    margin: 0px 200px;
     padding: 100px 0px;
 }
 .we-are-gamer-content{
@@ -126,6 +135,7 @@ nav li{
     color: #534C64;
     font-size: 24px;
     font-weight: 500;
+    padding-top: 20px;
 }
 .unleash{
     font-size: 32px;
@@ -140,6 +150,7 @@ nav li{
 .funny-vid-container{
     display: flex;
     gap: 20px;
+    padding-top: 20px;
 }
 .online-games{
     text-align: center;
@@ -156,7 +167,6 @@ nav li{
 .play-instantly-content{
     padding-bottom: 200px;
     padding-left: 100px;
-
 }
 .play-instantly-img > img{
     padding-left: 150px;
@@ -196,7 +206,7 @@ nav li{
     justify-content: center;
 }
 .careers-contents{
-    padding-left: 250px;
+    padding-left: 200px;
 }
 .careers-title, .careers-text-desc{
     color: #FFFFFF;
@@ -218,10 +228,9 @@ nav li{
     margin: 100px 200px;
 }
 .games-list{
-    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -274,9 +283,43 @@ footer .website-title{
     font-size: 18px;
     font-weight: 500;
     color: #FFFFFF;
-    padding-bottom: 40px;
+    padding: 40px 0;
+
 }
 .copyright{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);;
+}
+
+
+
+/* Responsive Style */
+
+@media screen and (max-width:576px){
+    nav, nav ul, .we-are-gamer-container, .funny-vid-container, .play-instantly, .careers{
+        flex-direction: column;
+    }
+    .banner{
+        margin: 100px 0;
+        flex-direction: column-reverse;
+        background-position: top;
+    }
+    .banner-title{
+        padding-top: 50px;
+        max-width: 100%;
+    }
+    .header, .we-are-gamer-container, .online-games, .play-instantly, .play-games, .play-instantly-content, .play-games-content, .careers-contents, .games-list-container{
+        margin: 0px;
+        padding: 10px 0;
+    }
+    .play-games{
+        flex-direction: column-reverse;
+    }
+    .we-are-gamer-content{
+        text-align: center;
+    }
+    nav li {
+        padding: 5px 0;
+    }
+
 }
